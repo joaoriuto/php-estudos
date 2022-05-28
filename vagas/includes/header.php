@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 
     <div class="container">
 
-    <div class="jumbotron bg-danger mb-4">
+    <div class="jumbotron bg-danger mb-4 p-3 rounded">
       <h1 class="mb-4">JoãoRiuto - Vagas</h1>
       <p>Projeto CRUD com PHP OO - by: WDEV</p>
     </div>
