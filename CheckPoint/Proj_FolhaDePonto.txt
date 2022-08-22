@@ -1,0 +1,71 @@
+-- Mini projeto - Pontos Eletrõnicos
+
+Objetivo em salvar todos os pontos marcados no dia-a-dia do trabalho.
+Com os dados, gerar informações sobre meu rendimento.
+
+Tela de login por usuário e tipo de acesso.
+
+O sistema deve cadastrar o nome da empresa, local e cnpj.
+
+Total de horas trabalhadas até o dia atual.
+Total de horas trabalhadas na semana.
+
+Total de horas no almoço.
+Semana em que dediquei mais e menos horas
+
+filtro por data
+
+Front end simples
+
+Dados:
+
+Colaborador:
+Nome
+
+Data, hora de entrada, hora inicial do almoço, hora final do almoço e hora de saída.
+
+Empresa:
+
+Nome(razão social), local, cnpj. 
+
+
+--------------------------------------------------------------------------------------------------
+
+Projeto - CheckPoint
+
+Programa que cadastra pontos diários fornecidos por uma entidade.
+
+---> Tela de login
+	-> Entrada de credenciais cadastradas ou Criação de acesso
+	-> Tela de cadastro
+
+------------ Pós autenticação
+
+---> Tela Inicial Home
+	
+---> Tela para cadastro da empresa
+	-> Razão social
+	-> CNPJ
+	-> Localização
+	-> Logomarca (png, jpg, bmp, gif)
+
+---> Tela de usuário
+	-> Nome + Sobrenome
+	-> Cargo
+	-> Tipo de contrato [ CLT, PJ, Free ]
+	-> Carga horária
+	
+---> Tela de inserção de ponto
+	-> Título: Registro de ponto do trabalhador
+	-> Botão: Data e hora atuais 
+	-> Inserir Data e Hora
+	
+---> Tela de dashboard
+	-> Razão Social
+	-> Localização
+	-> CNPJ
+	-> Gráficos comparativos
+	-> Filtro por dias ou Semanas
+	-> Download de métricas
+	
+---> Tela administrativa
