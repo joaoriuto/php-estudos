@@ -44,19 +44,24 @@ Programa que cadastra pontos diários fornecidos por uma entidade.
 ---> Tela Inicial Home
 	
 ---> Tela para cadastro da empresa
-	-> Razão social
-	-> CNPJ
-	-> Localização
+	-> Razão social varchar(100);
+	-> CNPJ 		varchar(15);
+	-> Telefone		varchar(15);
+	-> Localização  varchar(100);
 	-> Logomarca (png, jpg, bmp, gif)
 
 ---> Tela de usuário
-	-> Nome + Sobrenome
-	-> Cargo
-	-> Tipo de contrato [ CLT, PJ, Free ]
-	-> Carga horária
+	-> Nome         varchar(100);
+	-> Sobrenome	varchar(100);
+	-> E-mail		varchar(100);
+	-> Telefone		varchar(15);
+	-> Cargo 		varchar(20);
+	-> Tipo de contrato enum CLT, PJ, FreeLancer ]
+	-> Foto de perfil
 	
 ---> Tela de inserção de ponto
 	-> Título: Registro de ponto do trabalhador
+	-> Data 		datetime();
 	-> Botão: Data e hora atuais 
 	-> Inserir Data e Hora
 	
