@@ -45,17 +45,16 @@ Programa que cadastra pontos diários fornecidos por uma entidade.
 	
 ---> Tela para cadastro da empresa
 	-> Razão social varchar(100);
-	-> CNPJ 		varchar(15);
-	-> Telefone		varchar(15);
-	-> Localização  varchar(100);
+	-> CNPJ varchar(15);
+	-> Telefone varchar(15);
+	-> Localização varchar(100);
 	-> Logomarca (png, jpg, bmp, gif)
 
 ---> Tela de usuário
-	-> Nome         varchar(100);
-	-> Sobrenome	varchar(100);
-	-> E-mail		varchar(100);
-	-> Telefone		varchar(15);
-	-> Cargo 		varchar(20);
+	-> Nome varchar(100);
+	-> E-mail varchar(100);
+	-> Telefone varchar(15);
+	-> Cargo varchar(20);
 	-> Tipo de contrato enum CLT, PJ, FreeLancer ]
 	-> Foto de perfil
 	
